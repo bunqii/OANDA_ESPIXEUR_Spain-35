@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "ESPIX_EUR",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_ESPIXEUR_Spain-35_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_ESPIXEUR_Spain-35_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 785,
+  "first_candle": {
+    "time": 1480629600,
+    "Time": "2016-12-01T22:00:00.000000000Z",
+    "open": 8610.0,
+    "high": 8635.2,
+    "low": 8576.0,
+    "close": 8607.1,
+    "volume": 4960
+  },
+  "last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 9564.8,
+    "high": 9564.9,
+    "low": 9518.6,
+    "close": 9559.2,
+    "volume": 2635
+  },
+  "csv_file": "OANDA_ESPIXEUR_Spain-35_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 785,
+  "csv_first_candle": {
+    "time": 1480629600,
+    "Time": "2016-12-01T22:00:00.000000000Z",
+    "open": 8610.0,
+    "high": 8635.2,
+    "low": 8576.0,
+    "close": 8607.1,
+    "volume": 4960
+  },
+  "csv_last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 9564.8,
+    "high": 9564.9,
+    "low": 9518.6,
+    "close": 9559.2,
+    "volume": 2635
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T23:57:24.000000000Z",
+  "generated_at": "2026-10-15T23:57:24.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 1,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2016-12-01T22:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
